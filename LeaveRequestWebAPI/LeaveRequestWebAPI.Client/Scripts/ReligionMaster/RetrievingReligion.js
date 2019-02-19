@@ -51,18 +51,16 @@ function Save() {
 };
 
 function Edit() {
-    var leave = new Object();
-    leave.Id = $('#Id').val();
-    leave.Name = $('#Name').val();
-    leave.Status = $('#Status').val();
-    leave.Days = $('#Days').val();
+    var religion = new Object();
+    religion.Id = $('#Id').val();
+    religion.Name = $('#Name').val();
     $.ajax({
-        url: "http://localhost:18565/api/Religions/" + leave.Id,
+        url: "http://localhost:18565/api/Religions/" + religion.Id,
         type: "PUT",
         datatype: "json",
-        data: leave,
+        data: religion,
         success: function (result) {
-            LoadIndexLeave();
+            LoadIndexReligion();
             $('#myModal').modal('hide');
             $('#Name').val('');
         }
@@ -77,8 +75,6 @@ function GetById(Id) {
         success: function (result) {
             $('#Id').val(result.Id);
             $('#Name').val(result.Name);
-            $('#Status').val(result.Status);
-            $('#Days').val(result.Days);
 
             $('#myModal').modal('show');
             $('#Update').show();
@@ -106,9 +102,8 @@ function Delete(Id) {
                     text: "That data has been soft delete!",
                     type: "success"
                 }, function () {
-                    LoadIndexLeave();
+                    LoadIndexReligion();
                     //window.location.href = '/Supplier/Index/';
-
                 });
             },
             error: function (response) {
@@ -126,18 +121,6 @@ function ValidationInsert() {
     } else {
         $('#Name').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
-        isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
-    } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
-    }
-    if ($('#Days').val() == "" || $('#Days').val() == " ") {
-        isAllValid = false;
-        $('#Days').siblings('span.error').css('visibility', 'visible');
-    } else {
-        $('#Days').siblings('span.error').css('visibility', 'hidden');
-    }
     if (isAllValid) {
         Save();
     }
@@ -151,18 +134,6 @@ function ValidationUpdate() {
     } else {
         $('#Name').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
-        isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
-    } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
-    }
-    if ($('#Days').val() == "" || $('#Days').val() == " ") {
-        isAllValid = false;
-        $('#Days').siblings('span.error').css('visibility', 'visible');
-    } else {
-        $('#Days').siblings('span.error').css('visibility', 'hidden');
-    }
     if (isAllValid) {
         Edit();
     }
@@ -170,8 +141,6 @@ function ValidationUpdate() {
 
 function HideAlert() {
     $('#Name').siblings('span.error').css('visibility', 'hidden');
-    $('#Status').siblings('span.error').css('visibility', 'hidden');
-    $('#Days').siblings('span.error').css('visibility', 'hidden');
 }
 
 function ClearScreen() {

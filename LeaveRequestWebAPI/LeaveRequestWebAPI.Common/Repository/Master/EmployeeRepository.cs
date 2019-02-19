@@ -48,8 +48,8 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             var getVillage = myContext.Villages.Find(employeeParam.Villages_Id);
             var getManager = myContext.Employees.Find(employeeParam.Managers_Id);
             var getDivision = myContext.Divisions.Find(employeeParam.Divisions_Id);
-            var getPosition = myContext.Positions.Find(employeeParam.Position_Id);
-            var getReligion = myContext.Religions.Find(employeeParam.Religion_Id);
+            var getPosition = myContext.Positions.Find(employeeParam.Positions_Id);
+            var getReligion = myContext.Religions.Find(employeeParam.Religions_Id);
 
             employee.FirstName = employeeParam.FirstName;
             employee.LastName = employeeParam.LastName;
@@ -84,8 +84,8 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             var getVillage = myContext.Villages.Find(employeeParam.Villages_Id);
             var getManager = myContext.Employees.Find(employeeParam.Managers_Id);
             var getDivision = myContext.Divisions.Find(employeeParam.Divisions_Id);
-            var getPosition = myContext.Positions.Find(employeeParam.Position_Id);
-            var getReligion = myContext.Religions.Find(employeeParam.Religion_Id);
+            var getPosition = myContext.Positions.Find(employeeParam.Positions_Id);
+            var getReligion = myContext.Religions.Find(employeeParam.Religions_Id);
 
             getDataEmployee.FirstName = employeeParam.FirstName;
             getDataEmployee.LastName = employeeParam.LastName;

@@ -5,9 +5,11 @@
         <thead>
             <tr>
                 <th>No</th>
-                <th>Name</th>
+                <th>FirstName</th>
+                <th>LastName</th>
                 <th>Gender</th>
                 <th>Address</th>
+                <th>Village</th>
                 <th>Religion</th>
                 <th>Marriage</th>
                 <th>Children Total</th>
@@ -37,8 +39,13 @@
                         <input type="text" class="form-control" id="Id" placeholder="Id" disabled="disabled" />
                     </div>
                     <div class="form-group">
-                        <label for="Name">Name</label>
-                        <input type="text" class="form-control" id="Name" placeholder="Name" />
+                        <label for="FirstName">First Name</label>
+                        <input type="text" class="form-control" id="FirstName" placeholder="First Name" />
+                        <span style="color:red" class="error">Validate Name Required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="LastName">Last Name</label>
+                        <input type="text" class="form-control" id="LastName" placeholder="Last Name" />
                         <span style="color:red" class="error">Validate Name Required</span>
                     </div>
                     <div class="form-group">
@@ -58,9 +65,9 @@
                         <span style="color:red" class="error">Select Religion</span>
                     </div>
                     <div class="form-group">
-                        <label for="Mariage">Mariage Status</label>
-                        <select id="Mariage" class="pc form-control" onchange="">
-                            <option>Select Mariage Status</option>
+                        <label for="Marriage">Marriage Status</label>
+                        <select id="Marriage" class="pc form-control" onchange="">
+                            <option>Select Marriage Status</option>
                             <option>Not Married</option>
                             <option>Married</option>
                         </select>
@@ -68,21 +75,21 @@
                     </div>
                     <div class="form-group">
                         <label for="Province">Province</label>
-                        <select id="Province" class="pc form-control" onchange="">
+                        <select id="Province" class="pc form-control" onchange="LoadRegencyCombo()">
                             <option>Select Province</option>
                         </select>
                         <span style="color:red" class="error">Select Province</span>
                     </div>
                     <div class="form-group">
                         <label for="Regency">Regency</label>
-                        <select id="Regency" class="pc form-control" onchange="">
+                        <select id="Regency" class="pc form-control" onchange="LoadSubDistrictCombo()">
                             <option>Select Regency</option>
                         </select>
                         <span style="color:red" class="error">Select Regency</span>
                     </div>
                     <div class="form-group">
                         <label for="SubDistrict">Sub-District</label>
-                        <select id="SubDistrict" class="pc form-control" onchange="">
+                        <select id="SubDistrict" class="pc form-control" onchange="LoadVillageCombo()">
                             <option>Select Sub-District</option>
                         </select>
                         <span style="color:red" class="error">Select Sub-District</span>
@@ -96,7 +103,7 @@
                     </div>
                     <div class="form-group">
                         <label for="Address">Address</label>
-                        <input type="text" class="form-control" id="Days" placeholder="Address" />
+                        <input type="text" class="form-control" id="Address" placeholder="Address" />
                         <span style="color:red" class="error">Validate Address Required</span>
                     </div>
                     <div class="form-group">
@@ -145,7 +152,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="Save" onclick="ValidationInsert();">Add</button>
                 <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="ValidationUpdate();">Update</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="HideAlert();">Close</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="">Close</button>
             </div>
         </div>
     </div>

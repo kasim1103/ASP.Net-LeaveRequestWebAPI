@@ -20,9 +20,9 @@ namespace LeaveRequestWebAPI.DataAccess.Param
         public string Password { get; set; }
         public string Picture { get; set; }
         public DateTimeOffset JoinDate { get; set; }
-        public int Religion_Id { get; set; }
+        public int Religions_Id { get; set; }
         public int Villages_Id { get; set; }
-        public int Position_Id { get; set; }
+        public int Positions_Id { get; set; }
         public int Divisions_Id { get; set; }
         public int Managers_Id { get; set; }
     }

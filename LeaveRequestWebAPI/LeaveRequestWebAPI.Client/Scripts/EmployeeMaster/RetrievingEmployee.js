@@ -1,5 +1,10 @@
 ﻿$(document).ready(function () {
     LoadIndexEmployee();
+    LoadReligionCombo();
+    LoadProvinceCombo();
+    LoadPositionCombo();
+    LoadDivisionCombo();
+    LoadManagerCombo();
     $('#table').DataTable({
         "ajax": LoadIndexEmployee()
     })
@@ -20,10 +25,12 @@ function LoadIndexEmployee() {
                 html += '<tr>';
                 // untuk menampilkan no
                 html += '<td>' + i + '</td>';
-                html += '<td>' + val.Name + '</td>';
+                html += '<td>' + val.FirstName + '</td>';
+                html += '<td>' + val.LastName + '</td>';
                 html += '<td>' + val.Gender + '</td>';
                 html += '<td>' + val.Address + '</td>';
-                html += '<td>' + val.Religion + '</td>';
+                html += '<td>' + val.Villages.Name + '</td>';
+                html += '<td>' + val.Religions.Name + '</td>';
                 html += '<td>' + val.Marriage + '</td>';
                 html += '<td>' + val.ChildrenTotal + '</td>';
                 html += '<td>' + val.LastYear + '</td>';
@@ -31,7 +38,7 @@ function LoadIndexEmployee() {
                 html += '<td>' + val.JoinDate + '</td>';
                 html += '<td>' + val.Positions.Name + '</td>';
                 html += '<td>' + val.Divisions.Name + '</td>';
-                html += '<td>' + val.Managers.Name + '</td>';
+                html += '<td>' + val.Managers + '</td>';
                 //nampilin foreign key
                 //html += '<td>' + val.Regency.Name + '</td>';
                 html += '<td> <a href="#" onclick="return GetById(' + val.Id + ')">Edit</a>';
@@ -44,11 +51,134 @@ function LoadIndexEmployee() {
     });
 }
 
+function LoadReligionCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Religions/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var religion = $('#Religion');
+            $.each(result, function (i, Religion) {
+                $("<option></option>").val(Religion.Id).text(Religion.Name).appendTo(religion);
+            });
+        }
+    });
+}
+
+function LoadProvinceCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Provinces/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var province = $('#Province');
+            $.each(result, function (i, Province) {
+                $("<option></option>").val(Province.Id).text(Province.Name).appendTo(province);
+            });
+        }
+    });
+}
+
+function LoadRegencyCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Regencies/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var regency = $('#Regency');
+            $.each(result, function (i, Regency) {
+                $("<option></option>").val(Regency.Id).text(Regency.Name).appendTo(regency);
+            });
+        }
+    });
+}
+
+function LoadSubDistrictCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Districts/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var district = $('#SubDistrict');
+            $.each(result, function (i, District) {
+                $("<option></option>").val(District.Id).text(District.Name).appendTo(district);
+            });
+        }
+    });
+}
+
+function LoadVillageCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Villages/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var village = $('#Village');
+            $.each(result, function (i, Village) {
+                $("<option></option>").val(Village.Id).text(Village.Name).appendTo(village);
+            });
+        }
+    });
+}
+
+function LoadPositionCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Positions/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var position = $('#Position');
+            $.each(result, function (i, Position) {
+                $("<option></option>").val(Position.Id).text(Position.Name).appendTo(position);
+            });
+        }
+    });
+}
+
+function LoadDivisionCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Divisions/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var division = $('#Division');
+            $.each(result, function (i, Division) {
+                $("<option></option>").val(Division.Id).text(Division.Name).appendTo(division);
+            });
+        }
+    });
+}
+
+function LoadManagerCombo() {
+    $.ajax({
+        url: "http://localhost:18565/api/Employees/",
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var employee = $('#Employee');
+            $.each(result, function (i, Employee) {
+                $("<option></option>").val(Employee.Id).text(Employee.Name).appendTo(employee);
+            });
+        }
+    });
+}
+
 function Save() {
     var employee = new Object();
-    employee.Name = $('#Name').val();
-    employee.Status = $('#Status').val();
-    employee.Days = $('#Days').val();
+    employee.FirstName = $('#FirstName').val();
+    employee.LastName = $('#LastName').val();
+    employee.Gender = $('#Gender').val();
+    employee.Address = $('#Address').val();
+    employee.Marriage = $('#Marriage').val();
+    employee.ChildrenTotal = $('#ChildrenTotal').val();
+    employee.LastYear = $('#LastYear').val();
+    employee.ThisYear = $('#ThisYear').val();
+    employee.JoinDate = $('#JoinDate').val();
+    employee.Religions_Id = $('#Religion').val();
+    employee.Villages_Id = $('#Village').val();
+    employee.Positions_Id = $('#Position').val();
+    employee.Divisions_Id = $('#Division').val();
+    employee.Managers_Id = $('#Manager').val();
     $.ajax({
         url: "http://localhost:18565/api/Employees/",
         type: 'POST',
@@ -62,18 +192,29 @@ function Save() {
 };
 
 function Edit() {
-    var leave = new Object();
-    leave.Id = $('#Id').val();
-    leave.Name = $('#Name').val();
-    leave.Status = $('#Status').val();
-    leave.Days = $('#Days').val();
+    var employee = new Object();
+    employee.Id = $('#Id').val();
+    employee.FirstName = $('#FirstName').val();
+    employee.LastName = $('#LastName').val();
+    employee.Gender = $('#Gender').val();
+    employee.Address = $('#Address').val();
+    employee.Marriage = $('#Marriage').val();
+    employee.ChildrenTotal = $('#ChildrenTotal').val();
+    employee.LastYear = $('#LastYear').val();
+    employee.ThisYear = $('#ThisYear').val();
+    employee.JoinDate = $('#JoinDate').val();
+    employee.Religions_Id = $('#Religion').val();
+    employee.Villages_Id = $('#Village').val();
+    employee.Positions_Id = $('#Position').val();
+    employee.Divisions_Id = $('#Division').val();
+    employee.Managers_Id = $('#Manager').val();
     $.ajax({
-        url: "http://localhost:18565/api/Employees/" + leave.Id,
+        url: "http://localhost:18565/api/Employees/" + employee.Id,
         type: "PUT",
         datatype: "json",
-        data: leave,
+        data: employee,
         success: function (result) {
-            LoadIndexLeave();
+            LoadIndexEmployee();
             $('#myModal').modal('hide');
             $('#Name').val('');
         }
@@ -87,9 +228,20 @@ function GetById(Id) {
         datatype: "json",
         success: function (result) {
             $('#Id').val(result.Id);
-            $('#Name').val(result.Name);
-            $('#Status').val(result.Status);
-            $('#Days').val(result.Days);
+            $('#FirstName').val(result.FirstName);
+            $('#LastName').val(result.LastName);
+            $('#Gender').val(result.Gender);
+            $('#Address').val(result.Address);
+            $('#Marriage').val(result.Marriage);
+            $('#ChildrenTotal').val(result.ChildrenTotal);
+            $('#LastYear').val(result.LastYear);
+            $('#ThisYear').val(result.ThisYear);
+            $('#JoinDate').val(result.JoinDate);
+            $('#Religion').val(result.Religions.Id);
+            $('#Village').val(result.Villages.Id);
+            $('#Position').val(result.Positions.Id);
+            $('#Division').val(result.Divisions.Id);
+            $('#Manager').val(result.Managers);
 
             $('#myModal').modal('show');
             $('#Update').show();
@@ -119,7 +271,6 @@ function Delete(Id) {
                 }, function () {
                     LoadIndexEmployee();
                     //window.location.href = '/Supplier/Index/';
-
                 });
             },
             error: function (response) {
@@ -131,23 +282,23 @@ function Delete(Id) {
 
 function ValidationInsert() {
     var isAllValid = true;
-    if ($('#Name').val() == "" || $('#Name').val() == " ") {
+    if ($('#FirstName').val() == "" || $('#FirstName').val() == " ") {
         isAllValid = false;
-        $('#Name').siblings('span.error').css('visibility', 'visible');
+        $('#FirstName').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Name').siblings('span.error').css('visibility', 'hidden');
+        $('#FirstName').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
+    if ($('#LastName').val() == "" || $('#LastName').val() == " ") {
         isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
+        $('#LastName').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
+        $('#LastName').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Days').val() == "" || $('#Days').val() == " ") {
+    if ($('#Gender').val() == "" || $('#Gender').val() == " ") {
         isAllValid = false;
-        $('#Days').siblings('span.error').css('visibility', 'visible');
+        $('#Gender').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Days').siblings('span.error').css('visibility', 'hidden');
+        $('#Gender').siblings('span.error').css('visibility', 'hidden');
     }
     if (isAllValid) {
         Save();
@@ -156,23 +307,23 @@ function ValidationInsert() {
 
 function ValidationUpdate() {
     var isAllValid = true;
-    if ($('#Name').val() == "" || $('#Name').val() == " ") {
+    if ($('#FirstName').val() == "" || $('#FirstName').val() == " ") {
         isAllValid = false;
-        $('#Name').siblings('span.error').css('visibility', 'visible');
+        $('#FirstName').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Name').siblings('span.error').css('visibility', 'hidden');
+        $('#FirstName').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
+    if ($('#LastName').val() == "" || $('#LastName').val() == " ") {
         isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
+        $('#LastName').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
+        $('#LastName').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Days').val() == "" || $('#Days').val() == " ") {
+    if ($('#Gender').val() == "" || $('#Gender').val() == " ") {
         isAllValid = false;
-        $('#Days').siblings('span.error').css('visibility', 'visible');
+        $('#Gender').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Days').siblings('span.error').css('visibility', 'hidden');
+        $('#Gender').siblings('span.error').css('visibility', 'hidden');
     }
     if (isAllValid) {
         Edit();

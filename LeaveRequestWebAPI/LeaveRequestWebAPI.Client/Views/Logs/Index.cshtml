@@ -1,174 +1,22 @@
 ﻿<div class="container">
     <hr />
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="">Create New</button><br /><br />
     <table class="table table-hover" id="table">
         <thead>
             <tr>
                 <th>No</th>
-                <th>Name</th>
-                <th>Gender</th>
-                <th>Address</th>
-                <th>Religion</th>
-                <th>Marriage</th>
-                <th>Children Total</th>
-                <th>Last Year</th>
-                <th>This Year</th>
-                <th>Join Date</th>
-                <th>Position</th>
-                <th>Division</th>
-                <th>Manager</th>
-                <th>Action</th>
+                <th>Log Date</th>
+                <th>Employee</th>
             </tr>
         </thead>
         <tbody class="tbody"></tbody>
     </table>
 </div>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title" id="myModalLabel">Employee Form</h4>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="Id">Id</label>
-                        <input type="text" class="form-control" id="Id" placeholder="Id" disabled="disabled" />
-                    </div>
-                    <div class="form-group">
-                        <label for="Name">Name</label>
-                        <input type="text" class="form-control" id="Name" placeholder="Name" />
-                        <span style="color:red" class="error">Validate Name Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Gender">Gender</label>
-                        <select id="Gender" class="pc form-control" onchange="">
-                            <option>Select Gender</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                        </select>
-                        <span style="color:red" class="error">Select Gender</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Religion">Religion</label>
-                        <select id="Religion" class="pc form-control" onchange="">
-                            <option>Select Religion</option>
-                        </select>
-                        <span style="color:red" class="error">Select Religion</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Mariage">Mariage Status</label>
-                        <select id="Mariage" class="pc form-control" onchange="">
-                            <option>Select Mariage Status</option>
-                            <option>Not Married</option>
-                            <option>Married</option>
-                        </select>
-                        <span style="color:red" class="error">Select Mariage Status</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Province">Province</label>
-                        <select id="Province" class="pc form-control" onchange="">
-                            <option>Select Province</option>
-                        </select>
-                        <span style="color:red" class="error">Select Province</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Regency">Regency</label>
-                        <select id="Regency" class="pc form-control" onchange="">
-                            <option>Select Regency</option>
-                        </select>
-                        <span style="color:red" class="error">Select Regency</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="SubDistrict">Sub-District</label>
-                        <select id="SubDistrict" class="pc form-control" onchange="">
-                            <option>Select Sub-District</option>
-                        </select>
-                        <span style="color:red" class="error">Select Sub-District</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Village">Village</label>
-                        <select id="Village" class="pc form-control" onchange="">
-                            <option>Select Village</option>
-                        </select>
-                        <span style="color:red" class="error">Select Village</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Address">Address</label>
-                        <input type="text" class="form-control" id="Days" placeholder="Address" />
-                        <span style="color:red" class="error">Validate Address Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="ChildrenTotal">Children Total</label>
-                        <input type="number" class="form-control" id="ChildrenTotal" placeholder="0" />
-                        <span style="color:red" class="error">Validate Address Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="LastYear">Last Year</label>
-                        <input type="number" class="form-control" id="LastYear" placeholder="0" />
-                        <span style="color:red" class="error">Validate Address Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="ThisYear">This Year</label>
-                        <input type="number" class="form-control" id="ThisYear" placeholder="0" />
-                        <span style="color:red" class="error">Validate Address Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="JoinDate">Join Date</label>
-                        <input type="date" class="form-control" id="JoinDate" placeholder="JoinDate" />
-                        <span style="color:red" class="error">Validate Address Required</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Position">Position</label>
-                        <select id="Position" class="pc form-control" onchange="">
-                            <option>Select Position</option>
-                        </select>
-                        <span style="color:red" class="error">Select Manager</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Division">Division</label>
-                        <select id="Division" class="pc form-control" onchange="">
-                            <option>Select Division</option>
-                        </select>
-                        <span style="color:red" class="error">Select Manager</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="Manager">Manager</label>
-                        <select id="Manager" class="pc form-control" onchange="">
-                            <option>Select Manager</option>
-                        </select>
-                        <span style="color:red" class="error">Select Manager</span>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="Save" onclick="ValidationInsert();">Add</button>
-                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="ValidationUpdate();">Update</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="HideAlert();">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<style>
-    span.error {
-        display: block;
-        visibility: hidden;
-        color: red;
-        font-size: 90%;
-    }
-
-    tr.error {
-        background-color: rgba(255,0,0,0.35);
-    }
-</style>
 
 @section Scripts {
     <script src="~/Content/DataTable/jquery.dataTables.min.js"></script>
     <script src="~/Content/SweetAlert/sweetalert.min.js"></script>
     <link href="~/Content/DataTable/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="~/Content/SweetAlert/sweetalert.css" rel="stylesheet" />
-    <script src="~/Scripts/EmployeeMaster/RetrievingEmployee.js"></script>
+    <script src="~/Scripts/LogMaster/RetrievingLog.js"></script>
     @Scripts.Render("~/bundles/jqueryval")
 }

@@ -167,6 +167,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\LeaveMaster\RetrievingLeave.js" />
+    <Content Include="Scripts\LogMaster\RetrievingLog.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\ProvinceMaster\RetrievingProvince.js" />
     <Content Include="Scripts\ReligionMaster\RetrievingReligion.js" />
