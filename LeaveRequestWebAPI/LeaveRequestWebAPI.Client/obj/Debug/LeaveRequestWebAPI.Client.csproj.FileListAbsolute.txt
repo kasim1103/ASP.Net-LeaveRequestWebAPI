@@ -1,0 +1,119 @@
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\csc.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Collections.Immutable.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Reflection.Metadata.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\vbc.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe.config
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll.config
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.Web.Infrastructure.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\WebGrease.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\csc.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Collections.Immutable.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\vbc.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.Web.Infrastructure.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\WebGrease.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.csprojResolveAssemblyReference.cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\csc.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Collections.Immutable.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\vbc.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\roslyn\VBCSCompiler.exe.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\LeaveRequestWebAPI.Client.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.Web.Infrastructure.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\WebGrease.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Helpers.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Mvc.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Optimization.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.Razor.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Deployment.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\System.Web.WebPages.Razor.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Antlr3.Runtime.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\bin\Newtonsoft.Json.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.csprojResolveAssemblyReference.cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Client\obj\Debug\LeaveRequestWebAPI.Client.pdb

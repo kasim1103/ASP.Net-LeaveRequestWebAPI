@@ -1,0 +1,28 @@
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe.config
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.pdb
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.dll
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.xml
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe.config
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\LeaveRequestWebAPI.Core.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.csprojResolveAssemblyReference.cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.Core\obj\Debug\LeaveRequestWebAPI.Core.pdb

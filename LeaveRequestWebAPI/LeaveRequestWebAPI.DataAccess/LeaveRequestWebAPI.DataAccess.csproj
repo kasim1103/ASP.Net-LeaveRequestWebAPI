@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7EE82C2-2967-4ABD-B30D-4845B344D64C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeaveRequestWebAPI.DataAccess</RootNamespace>
+    <AssemblyName>LeaveRequestWebAPI.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\MyContext.cs" />
+    <Compile Include="Migrations\201902150807174_AddRegencyProvince.cs" />
+    <Compile Include="Migrations\201902150807174_AddRegencyProvince.Designer.cs">
+      <DependentUpon>201902150807174_AddRegencyProvince.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902171559465_addingLogModel.cs" />
+    <Compile Include="Migrations\201902171559465_addingLogModel.Designer.cs">
+      <DependentUpon>201902171559465_addingLogModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902171643518_addingLeaveModel.cs" />
+    <Compile Include="Migrations\201902171643518_addingLeaveModel.Designer.cs">
+      <DependentUpon>201902171643518_addingLeaveModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180211342_addingDivisionModel.cs" />
+    <Compile Include="Migrations\201902180211342_addingDivisionModel.Designer.cs">
+      <DependentUpon>201902180211342_addingDivisionModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180216476_addingPositionModel.cs" />
+    <Compile Include="Migrations\201902180216476_addingPositionModel.Designer.cs">
+      <DependentUpon>201902180216476_addingPositionModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180220111_addingDistrictAndVillageModel.cs" />
+    <Compile Include="Migrations\201902180220111_addingDistrictAndVillageModel.Designer.cs">
+      <DependentUpon>201902180220111_addingDistrictAndVillageModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180222342_addingEmployeeModel.cs" />
+    <Compile Include="Migrations\201902180222342_addingEmployeeModel.Designer.cs">
+      <DependentUpon>201902180222342_addingEmployeeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180225589_addingHolidayModel.cs" />
+    <Compile Include="Migrations\201902180225589_addingHolidayModel.Designer.cs">
+      <DependentUpon>201902180225589_addingHolidayModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180314527_addingEmployeeModel1.cs" />
+    <Compile Include="Migrations\201902180314527_addingEmployeeModel1.Designer.cs">
+      <DependentUpon>201902180314527_addingEmployeeModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180732247_removeManager.cs" />
+    <Compile Include="Migrations\201902180732247_removeManager.Designer.cs">
+      <DependentUpon>201902180732247_removeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902190124548_updateLogModel.cs" />
+    <Compile Include="Migrations\201902190124548_updateLogModel.Designer.cs">
+      <DependentUpon>201902190124548_updateLogModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902190134584_addingReligionModel.cs" />
+    <Compile Include="Migrations\201902190134584_addingReligionModel.Designer.cs">
+      <DependentUpon>201902190134584_addingReligionModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902190155407_updateEmployeeModel.cs" />
+    <Compile Include="Migrations\201902190155407_updateEmployeeModel.Designer.cs">
+      <DependentUpon>201902190155407_updateEmployeeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902190208093_addTakeLeaveModel.cs" />
+    <Compile Include="Migrations\201902190208093_addTakeLeaveModel.Designer.cs">
+      <DependentUpon>201902190208093_addTakeLeaveModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\District.cs" />
+    <Compile Include="Model\Division.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Holiday.cs" />
+    <Compile Include="Model\Leave.cs" />
+    <Compile Include="Model\Log.cs" />
+    <Compile Include="Model\Position.cs" />
+    <Compile Include="Model\Province.cs" />
+    <Compile Include="Model\Regency.cs" />
+    <Compile Include="Model\Religion.cs" />
+    <Compile Include="Model\TakeLeave.cs" />
+    <Compile Include="Model\Village.cs" />
+    <Compile Include="Param\DistrictParam.cs" />
+    <Compile Include="Param\DivisionParam.cs" />
+    <Compile Include="Param\EmployeeParam.cs" />
+    <Compile Include="Param\HolidayParam.cs" />
+    <Compile Include="Param\LeaveParam.cs" />
+    <Compile Include="Param\LogParam.cs" />
+    <Compile Include="Param\PositionParam.cs" />
+    <Compile Include="Param\ProvinceParam.cs" />
+    <Compile Include="Param\RegencyParam.cs" />
+    <Compile Include="Param\ReligionParam.cs" />
+    <Compile Include="Param\TakeLeaveParam.cs" />
+    <Compile Include="Param\VillageParam.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeaveRequestWebAPI.Core\LeaveRequestWebAPI.Core.csproj">
+      <Project>{418f4c8d-9c02-4143-9f6b-c9f4c058bb54}</Project>
+      <Name>LeaveRequestWebAPI.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902150807174_AddRegencyProvince.resx">
+      <DependentUpon>201902150807174_AddRegencyProvince.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902171559465_addingLogModel.resx">
+      <DependentUpon>201902171559465_addingLogModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902171643518_addingLeaveModel.resx">
+      <DependentUpon>201902171643518_addingLeaveModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180211342_addingDivisionModel.resx">
+      <DependentUpon>201902180211342_addingDivisionModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180216476_addingPositionModel.resx">
+      <DependentUpon>201902180216476_addingPositionModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180220111_addingDistrictAndVillageModel.resx">
+      <DependentUpon>201902180220111_addingDistrictAndVillageModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180222342_addingEmployeeModel.resx">
+      <DependentUpon>201902180222342_addingEmployeeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180225589_addingHolidayModel.resx">
+      <DependentUpon>201902180225589_addingHolidayModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180314527_addingEmployeeModel1.resx">
+      <DependentUpon>201902180314527_addingEmployeeModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180732247_removeManager.resx">
+      <DependentUpon>201902180732247_removeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902190124548_updateLogModel.resx">
+      <DependentUpon>201902190124548_updateLogModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902190134584_addingReligionModel.resx">
+      <DependentUpon>201902190134584_addingReligionModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902190155407_updateEmployeeModel.resx">
+      <DependentUpon>201902190155407_updateEmployeeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902190208093_addTakeLeaveModel.resx">
+      <DependentUpon>201902190208093_addTakeLeaveModel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

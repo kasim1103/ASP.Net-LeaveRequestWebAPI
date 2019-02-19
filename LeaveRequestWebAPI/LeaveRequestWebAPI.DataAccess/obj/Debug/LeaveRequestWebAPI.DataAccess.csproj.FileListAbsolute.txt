@@ -1,0 +1,72 @@
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe.config
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.pdb
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.dll
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.xml
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.pdb
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csprojResolveAssemblyReference.cache
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.AddRegencyProvince.resources
+E:\MII\Project Coding\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe.config
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.pdb
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csprojResolveAssemblyReference.cache
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.AddRegencyProvince.resources
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
+E:\MII\Bootcamptortois\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csprojResolveAssemblyReference.cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.AddRegencyProvince.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingManagerModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLogModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Leave Request\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLeaveModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe.config
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\LeaveRequestWebAPI.Core.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csprojResolveAssemblyReference.cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.AddRegencyProvince.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLogModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLeaveModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingDivisionModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingPositionModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingDistrictAndVillageModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingEmployeeModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingHolidayModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingEmployeeModel1.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.removeManager.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.updateLogModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingReligionModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.updateEmployeeModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addTakeLeaveModel.resources
