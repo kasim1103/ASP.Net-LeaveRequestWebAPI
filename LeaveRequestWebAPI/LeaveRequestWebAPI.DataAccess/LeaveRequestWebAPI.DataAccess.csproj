@@ -109,6 +109,10 @@
     <Compile Include="Migrations\201902190208093_addTakeLeaveModel.Designer.cs">
       <DependentUpon>201902190208093_addTakeLeaveModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902201026108_updateHolidayModel.cs" />
+    <Compile Include="Migrations\201902201026108_updateHolidayModel.Designer.cs">
+      <DependentUpon>201902201026108_updateHolidayModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\District.cs" />
     <Compile Include="Model\Division.cs" />
@@ -189,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902190208093_addTakeLeaveModel.resx">
       <DependentUpon>201902190208093_addTakeLeaveModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902201026108_updateHolidayModel.resx">
+      <DependentUpon>201902201026108_updateHolidayModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

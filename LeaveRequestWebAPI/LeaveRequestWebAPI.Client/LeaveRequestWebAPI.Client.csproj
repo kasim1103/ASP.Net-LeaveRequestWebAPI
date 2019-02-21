@@ -120,18 +120,28 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DistrictsController.cs" />
+    <Compile Include="Controllers\DivisionsController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
+    <Compile Include="Controllers\HolidaysController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LeavesController.cs" />
     <Compile Include="Controllers\LogsController.cs" />
+    <Compile Include="Controllers\PositionsController.cs" />
     <Compile Include="Controllers\ProvincesController.cs" />
+    <Compile Include="Controllers\RegenciesController.cs" />
     <Compile Include="Controllers\ReligionsController.cs" />
+    <Compile Include="Controllers\TakeLeavesController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Controllers\VillagesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-datepicker\bootstrap-datepicker.min.css" />
+    <Content Include="Content\bootstrap-datepicker\bootstrap-datepicker.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\DataTable\dataTables.bootstrap.js" />
@@ -158,7 +168,10 @@
     <Content Include="Content\DataTable\Contributing.md" />
     <Content Include="Content\DataTable\Readme.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\DistrictMaster\RetrievingDistrict.js" />
+    <Content Include="Scripts\DivisionMaster\RetrievingDivision.js" />
     <Content Include="Scripts\EmployeeMaster\RetrievingEmployee.js" />
+    <Content Include="Scripts\HolidayMaster\RetrievingHoliday.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -169,10 +182,15 @@
     <Content Include="Scripts\LeaveMaster\RetrievingLeave.js" />
     <Content Include="Scripts\LogMaster\RetrievingLog.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\PositionMaster\RetrievingPosition.js" />
     <Content Include="Scripts\ProvinceMaster\RetrievingProvince.js" />
+    <Content Include="Scripts\RegencyMaster\RetrievingRegency.js" />
+    <Content Include="Scripts\Register.js" />
     <Content Include="Scripts\ReligionMaster\RetrievingReligion.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\TakeLeaveMaster\RetrievingTakeLeave.js" />
+    <Content Include="Scripts\VillageMaster\RetrievingVillage.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -193,6 +211,18 @@
     <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\Logs\Index.cshtml" />
     <Content Include="Views\Religions\Index.cshtml" />
+    <Content Include="Views\Regencies\Index.cshtml" />
+    <Content Include="Views\Districts\Index.cshtml" />
+    <Content Include="Views\Villages\Index.cshtml" />
+    <Content Include="Views\Divisions\Index.cshtml" />
+    <Content Include="Views\Positions\Index.cshtml" />
+    <Content Include="Views\Holidays\Index.cshtml" />
+    <Content Include="Views\TakeLeaves\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
+    <Content Include="Views\Users\TakeLeave.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Users\About.cshtml" />
+    <Content Include="Views\Users\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

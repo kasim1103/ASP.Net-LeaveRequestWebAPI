@@ -14,6 +14,7 @@ namespace LeaveRequestWebAPI.Common.Repository
         bool Update(int? Id, EmployeeParam employeeParam);
         bool Delete(int? Id);
         List<Employee> Get();
+        List<Employee> GetManager(int? Id);
         Employee Get(int? Id);
     }
 }

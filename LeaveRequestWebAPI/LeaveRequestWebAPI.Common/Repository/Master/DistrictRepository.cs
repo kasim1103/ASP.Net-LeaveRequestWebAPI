@@ -69,5 +69,11 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             }
             return status;
         }
+
+        public List<District> GetDistrict(int? Id)
+        {
+            var getDataDistrict = myContext.Districts.Where(x => x.Regencies.Id == Id && x.IsDelete == false).ToList();
+            return getDataDistrict;
+        }
     }
 }

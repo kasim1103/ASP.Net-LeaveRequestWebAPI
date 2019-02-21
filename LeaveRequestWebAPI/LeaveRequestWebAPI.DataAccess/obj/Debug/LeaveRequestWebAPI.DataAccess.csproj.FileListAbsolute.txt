@@ -56,9 +56,6 @@ D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRe
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.AddRegencyProvince.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLogModel.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingLeaveModel.resources
-D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
-D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
-D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingDivisionModel.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingPositionModel.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingDistrictAndVillageModel.resources
@@ -70,3 +67,7 @@ D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRe
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addingReligionModel.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.updateEmployeeModel.resources
 D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.addTakeLeaveModel.resources
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.csproj.GenerateResource.Cache
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.exe
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.pdb
+D:\Mitra Integrasi Informatika\Project Mingguan\Kasim\LeaveRequestWebAPI\LeaveRequestWebAPI\LeaveRequestWebAPI.DataAccess\obj\Debug\LeaveRequestWebAPI.DataAccess.Migrations.updateHolidayModel.resources

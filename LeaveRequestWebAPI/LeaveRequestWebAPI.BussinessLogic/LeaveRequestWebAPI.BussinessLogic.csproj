@@ -64,6 +64,7 @@
     <Compile Include="Service\IProvinceService.cs" />
     <Compile Include="Service\IRegencyService.cs" />
     <Compile Include="Service\IReligionService.cs" />
+    <Compile Include="Service\ITakeLeaveService.cs" />
     <Compile Include="Service\IVillageService.cs" />
     <Compile Include="Service\Master\DistrictService.cs" />
     <Compile Include="Service\Master\DivisionService.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Service\Master\ProvinceService.cs" />
     <Compile Include="Service\Master\RegencyService.cs" />
     <Compile Include="Service\Master\ReligionService.cs" />
+    <Compile Include="Service\Master\TakeLeaveService.cs" />
     <Compile Include="Service\Master\VillageService.cs" />
   </ItemGroup>
   <ItemGroup>

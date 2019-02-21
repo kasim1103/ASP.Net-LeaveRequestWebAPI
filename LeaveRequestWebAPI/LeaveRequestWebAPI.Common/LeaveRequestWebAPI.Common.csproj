@@ -64,6 +64,7 @@
     <Compile Include="Repository\IProvinceRepository.cs" />
     <Compile Include="Repository\IRegencyRepository.cs" />
     <Compile Include="Repository\IReligionRepository.cs" />
+    <Compile Include="Repository\ITakeLeaveRepository.cs" />
     <Compile Include="Repository\IVillageRepository.cs" />
     <Compile Include="Repository\Master\DistrictRepository.cs" />
     <Compile Include="Repository\Master\DivisionRepository.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Repository\Master\ProvinceRepository.cs" />
     <Compile Include="Repository\Master\RegencyRepository.cs" />
     <Compile Include="Repository\Master\ReligionRepository.cs" />
+    <Compile Include="Repository\Master\TakeLeaveRepository.cs" />
     <Compile Include="Repository\Master\VillageRepository.cs" />
   </ItemGroup>
   <ItemGroup>

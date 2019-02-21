@@ -55,5 +55,10 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             }
             return status;
         }
+
+        public List<District> GetDistrict(int? Id)
+        {
+            return _districtRepository.GetDistrict(Id);
+        }
     }
 }

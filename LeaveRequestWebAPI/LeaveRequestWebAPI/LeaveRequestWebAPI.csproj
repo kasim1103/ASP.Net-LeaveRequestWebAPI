@@ -266,6 +266,7 @@
     <Compile Include="Controllers\ProvincesController.cs" />
     <Compile Include="Controllers\RegenciesController.cs" />
     <Compile Include="Controllers\ReligionsController.cs" />
+    <Compile Include="Controllers\TakeLeavesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\VillagesController.cs" />
     <Compile Include="Global.asax.cs">

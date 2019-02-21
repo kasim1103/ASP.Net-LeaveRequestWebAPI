@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace LeaveRequestWebAPI.DataAccess.Model
 {
-    public class Holiday :BaseModel
+    public class Holiday : BaseModel
     {
         public string Name { get; set; }
+        public DateTimeOffset DateTime { get; set; }
     }
 }

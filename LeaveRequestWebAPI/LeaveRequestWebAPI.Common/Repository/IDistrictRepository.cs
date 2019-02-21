@@ -14,6 +14,7 @@ namespace LeaveRequestWebAPI.Common.Repository
         bool Update(int? Id, DistrictParam districtParam);
         bool Delete(int? Id);
         List<District> Get();
+        List<District> GetDistrict(int? Id);
         District Get(int? Id);
     }
 }

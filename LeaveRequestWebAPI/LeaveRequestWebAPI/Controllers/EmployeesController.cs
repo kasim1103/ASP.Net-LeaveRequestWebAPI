@@ -24,6 +24,11 @@ namespace LeaveRequestWebAPI.Controllers
         {
             return _employeeRepository.Get();
         }
+    
+        public IEnumerable<Employee> GetManager(int Id)
+        {
+            return _employeeRepository.GetManager(Id);
+        }
 
         // GET: api/Employees/5
         public Employee Get(int Id)

@@ -54,6 +54,11 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             return getRegencyId;
         }
 
+        public List<Regency> GetRegency(int? Id)
+        {
+            return _regencyRepository.GetRegency(Id);
+        }
+
         public bool Insert(RegencyParam regencyParam)
         {
             if (regencyParam == null)

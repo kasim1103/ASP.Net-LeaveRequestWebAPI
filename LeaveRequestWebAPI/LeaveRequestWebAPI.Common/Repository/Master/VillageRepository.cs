@@ -69,5 +69,11 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             }
             return status;
         }
+
+        public List<Village> GetVillage(int? Id)
+        {
+            var getDataVillage = myContext.Villages.Where(x => x.Districts.Id == Id && x.IsDelete == false).ToList();
+            return getDataVillage;
+        }
     }
 }

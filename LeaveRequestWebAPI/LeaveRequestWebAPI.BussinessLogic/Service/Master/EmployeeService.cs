@@ -80,5 +80,10 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             }
             return status;
         }
+
+        public List<Employee> GetManager(int? Id)
+        {
+            return _employeeRepository.GetManager(Id);
+        }
     }
 }

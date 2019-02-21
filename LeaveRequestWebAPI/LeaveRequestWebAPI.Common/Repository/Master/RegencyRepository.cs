@@ -71,5 +71,11 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             }
             return status;
         }
+
+        public List<Regency> GetRegency(int? Id)
+        {
+            var getDataRegency = myContext.Regencies.Where(x => x.Provinces.Id == Id && x.IsDelete == false ).ToList();
+            return getDataRegency;
+        }
     }
 }

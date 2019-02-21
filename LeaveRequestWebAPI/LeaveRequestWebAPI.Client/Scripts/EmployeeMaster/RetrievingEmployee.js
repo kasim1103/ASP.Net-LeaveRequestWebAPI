@@ -38,7 +38,7 @@ function LoadIndexEmployee() {
                 html += '<td>' + val.JoinDate + '</td>';
                 html += '<td>' + val.Positions.Name + '</td>';
                 html += '<td>' + val.Divisions.Name + '</td>';
-                html += '<td>' + val.Managers + '</td>';
+                html += '<td>' + val.Managers.FirstName + '</td>';
                 //nampilin foreign key
                 //html += '<td>' + val.Regency.Name + '</td>';
                 html += '<td> <a href="#" onclick="return GetById(' + val.Id + ')">Edit</a>';
@@ -81,11 +81,29 @@ function LoadProvinceCombo() {
 
 function LoadRegencyCombo() {
     $.ajax({
+        url: "http://localhost:18565/api/Regencies/GetRegency/" + $('#Province').val(),
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var regency = $('#Regency');
+            regency.empty();
+            $("<option></option>").text("Select Regency").appendTo(regency);
+            $.each(result, function (i, Regency) {
+                $("<option></option>").val(Regency.Id).text(Regency.Name).appendTo(regency);
+            });
+        }
+    });
+}
+
+function LoadRegencyEditCombo() {
+    $.ajax({
         url: "http://localhost:18565/api/Regencies/",
         type: "GET",
         dataType: "json",
         success: function (result) {
             var regency = $('#Regency');
+            regency.empty();
+            $("<option></option>").text("Select Regency").appendTo(regency);
             $.each(result, function (i, Regency) {
                 $("<option></option>").val(Regency.Id).text(Regency.Name).appendTo(regency);
             });
@@ -95,11 +113,29 @@ function LoadRegencyCombo() {
 
 function LoadSubDistrictCombo() {
     $.ajax({
+        url: "http://localhost:18565/api/Districts/GetDistrict/" + $('#Regency').val(),
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var district = $('#SubDistrict');
+            district.empty();
+            $("<option></option>").text("Select Sub-District").appendTo(district);
+            $.each(result, function (i, District) {
+                $("<option></option>").val(District.Id).text(District.Name).appendTo(district);
+            });
+        }
+    });
+}
+
+function LoadSubDistrictEditCombo() {
+    $.ajax({
         url: "http://localhost:18565/api/Districts/",
         type: "GET",
         dataType: "json",
         success: function (result) {
             var district = $('#SubDistrict');
+            district.empty();
+            $("<option></option>").text("Select Sub-District").appendTo(district);
             $.each(result, function (i, District) {
                 $("<option></option>").val(District.Id).text(District.Name).appendTo(district);
             });
@@ -109,11 +145,29 @@ function LoadSubDistrictCombo() {
 
 function LoadVillageCombo() {
     $.ajax({
+        url: "http://localhost:18565/api/Villages/GetVillage/" + $('#SubDistrict').val(),
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            var village = $('#Village');
+            village.empty();
+            $("<option></option>").text("Select Village").appendTo(village);
+            $.each(result, function (i, Village) {
+                $("<option></option>").val(Village.Id).text(Village.Name).appendTo(village);
+            });
+        }
+    });
+}
+
+function LoadVillageEditCombo() {
+    $.ajax({
         url: "http://localhost:18565/api/Villages/",
         type: "GET",
         dataType: "json",
         success: function (result) {
             var village = $('#Village');
+            village.empty();
+            $("<option></option>").text("Select Village").appendTo(village);
             $.each(result, function (i, Village) {
                 $("<option></option>").val(Village.Id).text(Village.Name).appendTo(village);
             });
@@ -128,6 +182,8 @@ function LoadPositionCombo() {
         dataType: "json",
         success: function (result) {
             var position = $('#Position');
+            position.empty();
+            $("<option></option>").text("Select Position").appendTo(position);
             $.each(result, function (i, Position) {
                 $("<option></option>").val(Position.Id).text(Position.Name).appendTo(position);
             });
@@ -142,6 +198,8 @@ function LoadDivisionCombo() {
         dataType: "json",
         success: function (result) {
             var division = $('#Division');
+            division.empty();
+            $("<option></option>").text("Select Division").appendTo(division);
             $.each(result, function (i, Division) {
                 $("<option></option>").val(Division.Id).text(Division.Name).appendTo(division);
             });
@@ -151,13 +209,15 @@ function LoadDivisionCombo() {
 
 function LoadManagerCombo() {
     $.ajax({
-        url: "http://localhost:18565/api/Employees/",
+        url: "http://localhost:18565/api/Employees/GetManager/" + 2,
         type: "GET",
         dataType: "json",
         success: function (result) {
-            var employee = $('#Employee');
+            var manager = $('#Manager');
+            manager.empty();
+            $("<option></option>").text("Select Manager").appendTo(manager);
             $.each(result, function (i, Employee) {
-                $("<option></option>").val(Employee.Id).text(Employee.Name).appendTo(employee);
+                $("<option></option>").val(Employee.Id).text(Employee.FirstName).appendTo(manager);
             });
         }
     });
@@ -222,8 +282,11 @@ function Edit() {
 };
 
 function GetById(Id) {
+    LoadRegencyEditCombo();
+    LoadSubDistrictEditCombo();
+    LoadVillageEditCombo();
     $.ajax({
-        url: "http://localhost:18565/api/Employees/" + Id,
+        url: "http://localhost:18565/api/Employees/Get/" + Id,
         type: "GET",
         datatype: "json",
         success: function (result) {
@@ -238,10 +301,13 @@ function GetById(Id) {
             $('#ThisYear').val(result.ThisYear);
             $('#JoinDate').val(result.JoinDate);
             $('#Religion').val(result.Religions.Id);
+            $('#Province').val(result.Villages.Districts.Regencies.Provinces.Id);
+            $('#Regency').val(result.Villages.Districts.Regencies.Id);
+            $('#SubDistrict').val(result.Villages.Districts.Id);
             $('#Village').val(result.Villages.Id);
-            $('#Position').val(result.Positions.Id);
             $('#Division').val(result.Divisions.Id);
-            $('#Manager').val(result.Managers);
+            $('#Position').val(result.Positions.Id);
+            $('#Manager').val(result.Managers.Id);
 
             $('#myModal').modal('show');
             $('#Update').show();

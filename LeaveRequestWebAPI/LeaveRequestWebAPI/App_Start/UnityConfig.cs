@@ -29,7 +29,8 @@ namespace LeaveRequestWebAPI
             container.RegisterType<ILogService, LogService>();
             container.RegisterType<IHolidayService, HolidayService>();
             container.RegisterType<ILeaveService, LeaveService>();
-
+            container.RegisterType<ITakeLeaveService, ITakeLeaveService>();
+            
             //this Repository Only
             container.RegisterType<IProvinceRepository, ProvinceRepository>();
             container.RegisterType<IRegencyRepository, RegencyRepository>();
@@ -42,6 +43,7 @@ namespace LeaveRequestWebAPI
             container.RegisterType<ILogRepository, LogRepository>();
             container.RegisterType<IHolidayRepository, HolidayRepository>();
             container.RegisterType<ILeaveRepository, LeaveRepository>();
+            container.RegisterType<ITakeLeaveRepository, TakeLeaveRepository>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

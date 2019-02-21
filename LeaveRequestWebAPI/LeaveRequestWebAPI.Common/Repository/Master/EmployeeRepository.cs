@@ -32,7 +32,7 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
 
         public List<Employee> Get()
         {
-            var getDataEmployee = myContext.Employees.Where(x => x.IsDelete == false).ToList();
+            var getDataEmployee = (from m in myContext.Employees join e in myContext.Employees on m.Managers.Id equals e.Id select m).ToList();
             return getDataEmployee;
         }
 
@@ -111,6 +111,12 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
                 status = true;
             }
             return status;
+        }
+
+        public List<Employee> GetManager(int? Id)
+        {
+            var getListManager = myContext.Employees.Where(x => x.Managers.Id == Id).ToList();
+            return getListManager;
         }
     }
 }

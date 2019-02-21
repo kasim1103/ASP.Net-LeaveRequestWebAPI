@@ -55,5 +55,10 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             }
             return status;
         }
+
+        public List<Village> GetVillage(int? Id)
+        {
+            return _villageRepository.GetVillage(Id);
+        }
     }
 }

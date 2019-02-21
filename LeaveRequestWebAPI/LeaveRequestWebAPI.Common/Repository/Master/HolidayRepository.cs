@@ -44,6 +44,7 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
         {
             var result = 0;
             holiday.Name = holidayParam.Name;
+            holiday.DateTime = holidayParam.DateTime;
             holiday.CreateDate = DateTimeOffset.UtcNow.LocalDateTime;
             myContext.Holidays.Add(holiday);
             result = myContext.SaveChanges();
@@ -54,11 +55,12 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             return status;
         }
 
-        public bool Update(int? Id, HolidayParam HolidayParam)
+        public bool Update(int? Id, HolidayParam holidayParam)
         {
             var result = 0;
             var HolidayId = Get(Id);
-            HolidayId.Name = HolidayParam.Name;
+            HolidayId.Name = holidayParam.Name;
+            holiday.DateTime = holidayParam.DateTime;
             HolidayId.UpdateDate = DateTimeOffset.UtcNow.LocalDateTime;
             result = myContext.SaveChanges();
             if (result > 0)
