@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "TakeLeave";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+
+<h2>Welcome Manager</h2>
+
+<div class="container">
+    <hr />
+    <table class="table table-hover" id="table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Descripton</th>
+                <th>Type</th>
+                <th>Date Start</th>
+                <th>Data End</th>
+                <th>Difference</th>
+                <th>Approval Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/Content/DataTable/jquery.dataTables.min.js"></script>
+    <script src="~/Content/SweetAlert/sweetalert.min.js"></script>
+    <script src="~/Content/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <link href="~/Content/DataTable/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Content/SweetAlert/sweetalert.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <script src="~/Scripts/TakeLeaveMaster/RetrievingTakeLeaveManager.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -127,6 +127,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LeavesController.cs" />
     <Compile Include="Controllers\LogsController.cs" />
+    <Compile Include="Controllers\ManagersController.cs" />
     <Compile Include="Controllers\PositionsController.cs" />
     <Compile Include="Controllers\ProvincesController.cs" />
     <Compile Include="Controllers\RegenciesController.cs" />
@@ -189,6 +190,7 @@
     <Content Include="Scripts\ReligionMaster\RetrievingReligion.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\TakeLeaveMaster\RetrievingTakeLeaveManager.js" />
     <Content Include="Scripts\TakeLeaveMaster\RetrievingTakeLeave.js" />
     <Content Include="Scripts\VillageMaster\RetrievingVillage.js" />
     <Content Include="Scripts\_references.js" />
@@ -223,6 +225,11 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Users\About.cshtml" />
     <Content Include="Views\Users\Contact.cshtml" />
+    <Content Include="Views\Managers\About.cshtml" />
+    <Content Include="Views\Managers\Contact.cshtml" />
+    <Content Include="Views\Managers\TakeLeave.cshtml" />
+    <Content Include="Views\Shared\_LayoutManager.cshtml" />
+    <Content Include="Views\Managers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

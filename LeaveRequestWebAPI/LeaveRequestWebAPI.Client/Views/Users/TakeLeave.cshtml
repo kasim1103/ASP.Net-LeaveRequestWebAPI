@@ -1,9 +1,6 @@
 ﻿
 @{
     ViewBag.Title = "TakeLeave";
-}
-
-@{
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
 }
 
@@ -17,6 +14,7 @@
             <tr>
                 <th>No</th>
                 <th>Descripton</th>
+                <th>Type</th>
                 <th>Date Start</th>
                 <th>Data End</th>
                 <th>Difference</th>
@@ -46,7 +44,7 @@
                         <label for="TakeLeaveType">Take Leave Type</label>
                         <select id="TakeLeaveType" class="pc form-control" onchange="LoadLeaveCombo()">
                             <option>Take Leave Type</option>
-                            <option>Reguler</option>
+                            <option>Regular</option>
                             <option>Special</option>
                         </select>
                         <span class="error">Select Type of Take Leave</span>
@@ -74,20 +72,20 @@
 
                     <div class="form-group">
                         <label for="DateEnd">Date End</label>
-                        <input type="text" class="form-control" id="DateEnd" placeholder="DateEnd" />
-                        <span style="color:red" class="error">Date End Required</span>
+                        <input type="text" class="form-control" id="DateEnd" placeholder="DateEnd" onchange="CountDifference()"/>
+                        <span style="color:red" class="error">End date must be greater than the start date</span>
                     </div>
 
                     <div class="form-group">
                         <label for="Difference">Difference</label>
-                        <input type="text" class="form-control" id="Difference" placeholder="Difference" disabled="disabled" />
+                        <input type="text" class="form-control" id="Difference" placeholder="Difference" readonly="readonly" />
                     </div>
 
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="Save" onclick="ValidationInsert();">Add</button>
-                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="ValidationUpdate();">Update</button>
+                <button type="button" class="btn btn-primary" id="Save" onclick="Save();">Add</button>
+                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="Edit();">Re-Schedule</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal" onclick="">Close</button>
             </div>
         </div>

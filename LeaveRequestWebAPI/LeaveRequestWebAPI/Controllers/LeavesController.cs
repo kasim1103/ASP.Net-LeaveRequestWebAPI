@@ -31,6 +31,11 @@ namespace LeaveRequestWebAPI.Controllers
             return _leaveRepository.Get(Id);
         }
 
+        public IEnumerable<Leave> GetType(string Type)
+        {
+            return _leaveRepository.GetType(Type);
+        }
+
         // POST: api/Leaves
         public void Post(LeaveParam leaveParam)
         {

@@ -80,5 +80,10 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             }
             return status;
         }
+
+        public List<Leave> GetType(string Type)
+        {
+            return _leaveRepository.GetType(Type);
+        }
     }
 }

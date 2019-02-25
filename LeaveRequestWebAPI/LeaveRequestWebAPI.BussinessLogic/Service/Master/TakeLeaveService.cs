@@ -72,5 +72,18 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service.Master
             }
             return status;
         }
+
+        public bool Approve(int? Id, TakeLeaveParam takeLeaveParam)
+        {
+            if (Id == null)
+            {
+                throw new NullReferenceException();
+            }
+            else
+            {
+                status = _takeLeaveRepository.Approve(Id, takeLeaveParam);
+            }
+            return status;
+        }
     }
 }

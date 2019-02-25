@@ -12,6 +12,7 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service
     {
         bool Insert(TakeLeaveParam takeLeaveParam);
         bool Update(int? Id, TakeLeaveParam takeLeaveParam);
+        bool Approve(int? Id, TakeLeaveParam takeLeaveParam);
         bool Delete(int? Id);
         List<TakeLeave> Get();
         TakeLeave Get(int? Id);

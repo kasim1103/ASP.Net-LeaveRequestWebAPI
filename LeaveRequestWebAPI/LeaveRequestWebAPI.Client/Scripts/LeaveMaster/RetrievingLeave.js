@@ -40,7 +40,7 @@ function LoadIndexLeave() {
 function Save() {
     var leave = new Object();
     leave.Name = $('#Name').val();
-    leave.Status = $('#Status').val();
+    leave.Status = $('#TakeLeaveType').val();
     leave.Days = $('#Days').val();
     $.ajax({
         url: "http://localhost:18565/api/Leaves/",
@@ -58,7 +58,7 @@ function Edit() {
     var leave = new Object();
     leave.Id = $('#Id').val();
     leave.Name = $('#Name').val();
-    leave.Status = $('#Status').val();
+    leave.Status = $('#TakeLeaveType').val();
     leave.Days = $('#Days').val();
     $.ajax({
         url: "http://localhost:18565/api/Leaves/" + leave.Id,
@@ -75,13 +75,13 @@ function Edit() {
 
 function GetById(Id) {
     $.ajax({
-        url: "http://localhost:18565/api/Leaves/" + Id,
+        url: "http://localhost:18565/api/Leaves/Get/" + Id,
         type: "GET",
         datatype: "json",
         success: function (result) {
             $('#Id').val(result.Id);
             $('#Name').val(result.Name);
-            $('#Status').val(result.Status);
+            $('#TakeLeaveType').val(result.Status);
             $('#Days').val(result.Days);
 
             $('#myModal').modal('show');
@@ -130,11 +130,11 @@ function ValidationInsert() {
     } else {
         $('#Name').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
+    if ($('#TakeLeaveType').val() == "" || $('#TakeLeaveType').val() == " ") {
         isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
+        $('#TakeLeaveType').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
+        $('#TakeLeaveType').siblings('span.error').css('visibility', 'hidden');
     }
     if ($('#Days').val() == "" || $('#Days').val() == " ") {
         isAllValid = false;
@@ -155,11 +155,11 @@ function ValidationUpdate() {
     } else {
         $('#Name').siblings('span.error').css('visibility', 'hidden');
     }
-    if ($('#Status').val() == "" || $('#Status').val() == " ") {
+    if ($('#TakeLeaveType').val() == "" || $('#TakeLeaveType').val() == " ") {
         isAllValid = false;
-        $('#Status').siblings('span.error').css('visibility', 'visible');
+        $('#TakeLeaveType').siblings('span.error').css('visibility', 'visible');
     } else {
-        $('#Status').siblings('span.error').css('visibility', 'hidden');
+        $('#TakeLeaveType').siblings('span.error').css('visibility', 'hidden');
     }
     if ($('#Days').val() == "" || $('#Days').val() == " ") {
         isAllValid = false;
@@ -174,7 +174,7 @@ function ValidationUpdate() {
 
 function HideAlert() {
     $('#Name').siblings('span.error').css('visibility', 'hidden');
-    $('#Status').siblings('span.error').css('visibility', 'hidden');
+    $('#TakeLeaveType').siblings('span.error').css('visibility', 'hidden');
     $('#Days').siblings('span.error').css('visibility', 'hidden');
 }
 

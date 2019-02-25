@@ -73,5 +73,11 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
             }
             return status;
         }
+
+        List<Leave> ILeaveRepository.GetType(string Type)
+        {
+            var getDataLeave = myContext.Leaves.Where(x => x.IsDelete == false && x.Status == Type).ToList();
+            return getDataLeave;
+        }
     }
 }

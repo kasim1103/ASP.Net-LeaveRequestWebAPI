@@ -16,39 +16,44 @@ namespace LeaveRequestWebAPI.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TakeLeavesController : ApiController
     {
-        private readonly ITakeLeaveService _takeLeaveService;
-        public TakeLeavesController(ITakeLeaveService takeLeaveService)
+        private readonly ITakeLeaveRepository _takeLeaveRepository;
+        public TakeLeavesController(ITakeLeaveRepository takeLeaveRepository)
         {
-            _takeLeaveService = takeLeaveService;
+            _takeLeaveRepository = takeLeaveRepository;
         }
         // GET: api/TakeLeaves
         public IEnumerable<TakeLeave> Get()
         {
-            return _takeLeaveService.Get();
+            return _takeLeaveRepository.Get();
         }
 
         // GET: api/TakeLeaves/5
         public TakeLeave Get(int Id)
         {
-            return _takeLeaveService.Get(Id);
+            return _takeLeaveRepository.Get(Id);
         }
 
         // POST: api/TakeLeaves
         public void Post(TakeLeaveParam takeLeaveParam)
         {
-            _takeLeaveService.Insert(takeLeaveParam);
+            _takeLeaveRepository.Insert(takeLeaveParam);
         }
 
         // PUT: api/TakeLeaves/5
         public void Put(int Id, TakeLeaveParam takeLeaveParam)
         {
-            _takeLeaveService.Update(Id, takeLeaveParam);
+            _takeLeaveRepository.Update(Id, takeLeaveParam);
+        }
+
+        public void PutApproval(int Id, TakeLeaveParam takeLeaveParam)
+        {
+            _takeLeaveRepository.Approve(Id, takeLeaveParam);
         }
 
         // DELETE: api/TakeLeaves/5
         public void Delete(int Id)
         {
-            _takeLeaveService.Delete(Id);
+            _takeLeaveRepository.Delete(Id);
         }
     }
 }

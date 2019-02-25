@@ -6,7 +6,7 @@
             <tr>
                 <th>No</th>
                 <th>Name</th>
-                <th>Status</th>
+                <th>Type</th>
                 <th>Days</th>
                 <th>Action</th>
             </tr>
@@ -33,9 +33,13 @@
                         <span style="color:red" class="error">Validate Name Required</span>
                     </div>
                     <div class="form-group">
-                        <label for="Status">Status</label>
-                        <input type="text" class="form-control" id="Status" placeholder="Status" />
-                        <span style="color:red" class="error">Validate Status Required</span>
+                        <label for="TakeLeaveType">Take Leave Type</label>
+                        <select id="TakeLeaveType" class="pc form-control">
+                            <option>Take Leave Type</option>
+                            <option>Regular</option>
+                            <option>Special</option>
+                        </select>
+                        <span class="error">Select Type of Take Leave</span>
                     </div>
                     <div class="form-group">
                         <label for="Days">Days</label>

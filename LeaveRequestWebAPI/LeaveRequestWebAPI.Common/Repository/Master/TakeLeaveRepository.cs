@@ -45,16 +45,22 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
 
         public bool Insert(TakeLeaveParam takeLeaveParam)
         {
+            var getEmployee = myContext.Employees.Find(takeLeaveParam.Employee_Id);
+            var getLeave = myContext.Leaves.Find(takeLeaveParam.Leave_Id);
+
             var result = 0;
             takeLeave.Description = takeLeaveParam.Description;
             takeLeave.DateStart = takeLeaveParam.DateStart;
             takeLeave.DateEnd = takeLeaveParam.DateEnd;
             takeLeave.ApprovalStatus = takeLeaveParam.ApprovalStatus;
-           // takeLeave.Difference = takeLeaveParam.DateEnd - takeLeaveParam.DateStart;
+            takeLeave.Difference = takeLeaveParam.Difference;
             takeLeave.DateStartSpecial = takeLeaveParam.DateStartSpecial;
             takeLeave.DateEndSpecial = takeLeaveParam.DateEndSpecial;
-           // takeLeave.DifferenceSpecial = takeLeaveParam.DateEndSpecial - takeLeaveParam.DateStartSpecial;
+            takeLeave.DifferenceSpecial = takeLeaveParam.DifferenceSpecial;
             takeLeave.CreateDate = DateTimeOffset.UtcNow.LocalDateTime;
+            takeLeave.Employees = getEmployee;
+            takeLeave.Leaves = getLeave;
+
             myContext.TakeLeaves.Add(takeLeave);
             result = myContext.SaveChanges();
             if (result > 0)
@@ -66,18 +72,37 @@ namespace LeaveRequestWebAPI.Common.Repository.Master
 
         public bool Update(int? Id, TakeLeaveParam takeLeaveParam)
         {
+            var getEmployee = myContext.Employees.Find(takeLeaveParam.Employee_Id);
+            var getLeave = myContext.Leaves.Find(takeLeaveParam.Leave_Id);
+
             var result = 0;
             var getDataTakeLeave = Get(Id);
             getDataTakeLeave.Description = takeLeaveParam.Description;
             getDataTakeLeave.DateStart = takeLeaveParam.DateStart;
             getDataTakeLeave.DateEnd = takeLeaveParam.DateEnd;
             getDataTakeLeave.ApprovalStatus = takeLeaveParam.ApprovalStatus;
-            // getDataTakeLeave.Difference = takeLeaveParam.DateEnd - takeLeaveParam.DateStart;
+            getDataTakeLeave.Difference = takeLeaveParam.Difference;
             getDataTakeLeave.DateStartSpecial = takeLeaveParam.DateStartSpecial;
             getDataTakeLeave.DateEndSpecial = takeLeaveParam.DateEndSpecial;
-            // getDataTakeLeave.DifferenceSpecial = takeLeaveParam.DateEndSpecial - takeLeaveParam.DateStartSpecial;
+            getDataTakeLeave.DifferenceSpecial = takeLeaveParam.DifferenceSpecial;
             getDataTakeLeave.CreateDate = DateTimeOffset.UtcNow.LocalDateTime;
-            myContext.TakeLeaves.Add(takeLeave);
+            getDataTakeLeave.Employees = getEmployee;
+            getDataTakeLeave.Leaves = getLeave;
+
+            result = myContext.SaveChanges();
+            if (result > 0)
+            {
+                status = true;
+            }
+            return status;
+        }
+
+        public bool Approve(int? Id, TakeLeaveParam takeLeaveParam)
+        {
+            var result = 0;
+            var getDataTakeLeave = Get(Id);
+            getDataTakeLeave.ApprovalStatus = takeLeaveParam.ApprovalStatus;
+
             result = myContext.SaveChanges();
             if (result > 0)
             {

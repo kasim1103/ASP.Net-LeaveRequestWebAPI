@@ -15,5 +15,6 @@ namespace LeaveRequestWebAPI.BussinessLogic.Service
         bool Delete(int? Id);
         List<Leave> Get();
         Leave Get(int? Id);
+        List<Leave> GetType(string Type);
     }
 }
